@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  height: 234px;
+  background-image: url(/img/yellow_top_wave_01.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+header nav .navbar-brand {
+  width: 28%;
+}
+header nav img {
+  width: 80px;
+}
+header nav .nav-item {
+  padding: 0px 41px 0px 0px;
+}
+header nav .nav-link {
+  font-weight: 600;
+  color: black;
+  font-size: 13px;
+}
+header nav .nav-link:hover {
+  color: #b61984;
+}
+header nav .numberphone {
+  background-color: #b61984;
+  border-radius: 30px;
+  display: flex;
+  width: 21%;
+  padding: 15px;
+  padding-inline: 27px;
+  font-size: 12px;
+  color: aliceblue;
+  transition: all 0.5s;
+}
+header nav .numberphone .phone {
+  margin-right: 10px;
+}
+header nav .numberphone:hover {
+  color: #b61984;
+  background-color: white;
+  -webkit-box-shadow: 0 0 0 1px #b61984 inset;
+  box-shadow: 0 0 0 1px #b61984 inset;
+}
+header .icon {
+  margin-left: 15px;
+}
+header .icon i {
+  padding: 2px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+header .icon i:hover {
+  color: #b61984;
+}
+
+.intro h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  color: #b61984;
+}
+.intro h2 {
+  font-size: 66px;
+  font-weight: 650;
+}
+.intro img {
+  position: relative;
+  top: -29%;
+  object-position: cover;
+}
+.intro .row {
+  margin-bottom: -30%;
+}
+
+.background {
+  background-image: url(/img/Violet_top_left_wave.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+  position: relative;
+}
+
+.cardteacher {
+  background-color: #dcd1f3;
+  position: relative;
+}
+.cardteacher .card {
+  margin-bottom: 40px;
+  transition: all 0.5s;
+}
+.cardteacher .card .card-text {
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-size: 0.75rem;
+  margin-bottom: 0.7em;
+  color: #b61984;
+  font-weight: 600;
+}
+.cardteacher .card h3 {
+  font-weight: 700;
+}
+.cardteacher .card p {
+  color: #181818;
+}
+.cardteacher .card:hover {
+  -webkit-box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
+}
+.cardteacher .box2 {
+  background-image: url(/img/Wave_White_bottom_right_shape_01.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 412px;
+}
+.cardteacher .box2 .items_box {
+  display: flex;
+  width: 102%;
+}
+
+.Find_Your_Course img {
+  max-width: 100%;
+  height: auto;
+}
+
+.test {
+  align-items: center;
+}
+
+.login .account {
+  margin-bottom: 30px;
+  padding: 30px;
+  margin: 100px;
+  background-color: white;
+  -webkit-box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.2);
+}
+.login .account h2 {
+  font-weight: 700;
+  font-size: 47px;
+  margin-bottom: 30px;
+}
+.login .account input {
+  border: 1px solid #ced4da;
+  border-radius: 50px;
+  padding: 1em 1em 1em 3.5em !important;
+  font-size: 0.8em !important;
+  height: 3.7em;
+}
+.login .account .usename {
+  margin-left: -17px;
+  display: flex;
+}
+.login .account .usename .icon {
+  position: relative;
+  left: 7%;
+  top: 15px;
+  color: #b61984;
+}
+.login .account .usename .icon2 {
+  position: relative;
+  left: 7%;
+  top: 15px;
+  color: #b61984;
+}
+.login .optional select {
+  width: 100%;
+  border: 1px solid #ced4da;
+  border-radius: 50px;
+  padding: 1em 1em 1em 3.5em !important;
+  font-size: 0.8em !important;
+  height: 3.7em;
+  color: #b61984;
+}
+.login .optional i {
+  position: relative;
+  left: 4%;
+  top: 34px;
+  color: #b61984;
+}
+.login .text textarea {
+  width: 100%;
+  border: 1px solid #ced4da;
+  border-radius: 20px;
+  padding: 1em 1em 1em 3.5em !important;
+  font-size: 0.8em !important;
+  height: 90px;
+  color: #b61984;
+}
+.login .text i {
+  position: relative;
+  left: 4%;
+  top: 34px;
+  color: #b61984;
+}
+.login .btn {
+  margin-top: 2em;
+  margin-bottom: 100px;
+  border-radius: 50px;
+  width: 150px;
+  height: 4em;
+  box-shadow: 0 0 0 3em #b61984 inset;
+  outline: none;
+  border-color: unset;
+  font-size: 0.8em;
+  font-weight: 600;
+  border: none;
+  color: #fff;
+  transition: all 0.3s;
+}
+.login .btn:hover {
+  box-shadow: 0 0 0 1px #b61984 inset;
+  color: #b61984;
+}
+
+.Find_Your_Course {
+  background-image: url(/img/accent_bottom_wave_01.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0px;
+  position: relative;
+  bottom: -175px;
+}
+.Find_Your_Course .row {
+  position: relative;
+  top: -100px;
+}
+
+footer {
+  padding: 8em 0;
+  background-image: url(/img/footer_background.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 0.9em;
+  color: #fff;
+}
+footer h4 {
+  margin-bottom: 2em;
+  font-size: 1.55rem;
+  font-weight: 700;
+}
+footer .items {
+  display: flex;
+}
+footer .items i {
+  padding-right: 10px;
+}
+footer .fa-brands {
+  color: white;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 0.85rem;
+}
+footer hr {
+  margin: 12px 0;
+  color: inherit;
+  border: 0;
+  border-top: 1px solid;
+  opacity: 0.25;
+  width: 50px;
+}
+footer .email-footer input {
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  outline: none;
+  font: inherit;
+  width: 100%;
+  background: transparent;
+  line-height: 1;
+  display: block;
+  padding: 1em;
+  color: white;
+  text-align: center;
+}
+footer .subscribe-footer input {
+  box-shadow: 0 0 0 3em #fff inset;
+  color: #181818;
+  border-radius: 50px;
+  outline: none;
+  font: inherit;
+  width: 100%;
+  background: transparent;
+  line-height: 1;
+  display: block;
+  padding: 1em;
+  color: #181818;
+  text-align: center;
+  border-color: unset;
+  transition: all 0.2s;
+}
+footer .subscribe-footer input:hover {
+  box-shadow: 0 0 0 1px #fff inset;
+  color: #fff;
+}/*# sourceMappingURL=index.css.map */
